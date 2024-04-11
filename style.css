@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #EDE9E9;
+
+}
+
+.buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons img {
+    width: 50%;
+    height: auto;
+}
+
+.buttons button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons__options {
+    padding-top: 3px;
+    background: linear-gradient(#9ca0f1, #7E82EE);
+    border: 1px solid #7B7EF1;
+}
+
+.buttons__options:hover {
+    background: #464CE3;
+    border: 1px solid #464CE3;
+}
+
+.buttons__mail {
+    border-radius: 6px 0 0 6px;
+}
+
+.buttons__profile {
+    padding-top: 3px;
+    background: linear-gradient(#ec9e9e, #F05858);
+    border: 1px solid #E34F4F;
+    border-radius: 0 6px 6px 0;
+}
+
+.buttons__profile:hover {
+    background: #DC2D2D;
+    border: 1px solid #CE4141;
+}
